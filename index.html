@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- Headeri-->
+    <header>
+        <div class="container">
+            <div class="header-menu">
+                <div class="logo">
+                    <svg id="Layer_1" style="width:100%; height:38px; color:#ffffff;" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 139.54 41">
+                        <g>
+                          <path d="M241.74,421.43v-41h28.61v41H241.74Zm24.47-4.13V384.56H245.86V417.3h20.35Z" transform="translate(-241.74 -380.43)" style="fill: #ffcd05"/>
+                          <path d="M289.36,398.82h-1.77c-2.32-3.28-4.63-6.54-6.93-10.23h0v10.23h-2V384.55h1.77c2.32,3.26,4.63,6.5,6.91,10.17h0V384.55h2v14.27Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                          <path d="M294,393.18c0.57-1.87,1.14-3.61,1.65-5.81h0c0.57,2.2,1.08,3.94,1.61,5.81H294Zm0.94-8.62L290,398.82h2.12l1.24-3.89h4.3l1.12,3.89h2.73L297,384.55h-2Z" transform="translate(-241.74 -380.43)" style="fill:#ffffff"/>
+                          <path d="M303.83,398.82V386.47h-3.75v-1.91H310v1.91h-3.75v12.35h-2.45Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                          <path d="M310.83,398.82V384.55h2.43v14.27h-2.43Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                          <path d="M320.79,397c-2.55,0-3.45-2.81-3.45-5.54s1-5.14,3.45-5.14,3.45,2.51,3.45,5.14S323.34,397,320.79,397Zm0,2c3.73,0,6.05-3.32,6.05-7.58,0-4-2.57-7.18-6.05-7.18s-6.05,3.18-6.05,7.18C314.74,395.74,317.06,399.07,320.79,399.07Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                          <path d="M339,398.82h-1.77c-2.32-3.28-4.63-6.54-6.93-10.23h0v10.23h-2V384.55h1.77c2.32,3.26,4.63,6.5,6.91,10.17h0V384.55h2v14.27Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                          <path d="M343.67,393.18c0.57-1.87,1.14-3.61,1.65-5.81h0c0.57,2.2,1.08,3.94,1.61,5.81h-3.3Zm0.94-8.62-4.93,14.27h2.12l1.24-3.89h4.3l1.12,3.89h2.73l-4.54-14.27h-2Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                          <path d="M351.9,384.55h2.43v12.35h4.83v1.92H351.9V384.55Z" transform="translate(-241.74 -380.43)" style="fill:#ffffff"/>
+                          <g>
+                            <path d="M287.85,410.76v5.89a11.23,11.23,0,0,1-4.06.88c-4.2,0-6.85-3.26-6.85-7.46,0-3.89,2.65-7.3,6.93-7.3a6.1,6.1,0,0,1,3.47,1.1l-0.79,1.69a5.3,5.3,0,0,0-2.61-.75c-2.61,0-4.38,2.06-4.38,5.3s2,5.38,4.14,5.38a3.6,3.6,0,0,0,1.71-.35v-4.38h2.45Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                            <path d="M296.6,404.93h-4.08v3.91h4v1.92h-4v4.61h4.81v1.92h-7.26V403h6.52v1.92Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                            <path d="M304.14,415.49c-2.55,0-3.44-2.81-3.44-5.54s1-5.14,3.44-5.14,3.45,2.51,3.45,5.14S306.69,415.49,304.14,415.49Zm0,2c3.73,0,6.05-3.32,6.05-7.58,0-4-2.57-7.18-6.05-7.18s-6.05,3.18-6.05,7.18C298.09,414.21,300.41,417.53,304.14,417.53Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                            <path d="M321.94,410.76v5.89a11.24,11.24,0,0,1-4.06.88c-4.2,0-6.85-3.26-6.85-7.46,0-3.89,2.65-7.3,6.93-7.3a6.09,6.09,0,0,1,3.47,1.1l-0.79,1.69a5.3,5.3,0,0,0-2.61-.75c-2.61,0-4.38,2.06-4.38,5.3s2,5.38,4.14,5.38a3.6,3.6,0,0,0,1.71-.35v-4.38h2.45Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                            <path d="M326.63,404.93h1.08a2.07,2.07,0,0,1,2.26,2.3,2.52,2.52,0,0,1-2.32,2.83l-1,.06v-5.2Zm6.2,12.35L330,411.37a4.8,4.8,0,0,0,2.47-4.24c0-2.77-1.69-4.12-4.42-4.12h-3.81v14.27h2.45V411.9h1.1l2.3,5.38h2.79Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                            <path d="M336.86,411.64c0.57-1.87,1.14-3.61,1.65-5.81h0c0.57,2.2,1.08,3.93,1.61,5.81h-3.3ZM337.8,403l-4.93,14.27H335l1.24-3.89h4.3l1.12,3.89h2.73L339.84,403h-2Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                            <path d="M349,403h-3.81v14.27h2.45V411.9h1.1a4.66,4.66,0,0,0,4.69-4.77C353.39,404.36,351.7,403,349,403Zm-0.35,7.05-1,.06v-5.19h1.1a2.07,2.07,0,0,1,2.24,2.3A2.52,2.52,0,0,1,348.62,410.07Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                            <path d="M364.73,417.28h-2.45v-6.87h-5.08v6.87h-2.43V403h2.43v5.48h5.08v-5.44h2.45v14.23Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                            <path d="M367.07,417.28V403h2.43v14.27h-2.43Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                            <path d="M380.51,405.6a5.15,5.15,0,0,0-2.51-.79c-2.49,0-4.3,2.06-4.3,5.3s2,5.38,4.36,5.38a4.63,4.63,0,0,0,2.45-.71l0.67,1.77a6.21,6.21,0,0,1-3.22,1c-4.2,0-6.85-3.26-6.85-7.46,0-3.89,2.63-7.3,6.89-7.3a6,6,0,0,1,3.28,1.1Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                          </g>
+                        </g>
+                      </svg>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">BIBLOTEKAT</a></li>
+                        <li><a href="#">BUKURIT</a></li>
+                        <li><a href="#">LAJMET</a></li>
+                        <li><a href="#">KAFITERIT</a></li>
+                        <li><a href="#">SPORTI</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header-main">
+               <div class="center-top">
+                    <div class="top-title">
+                        <div class="middle-line"></div>
+                        <h2 class="title1">Welcome to Prishtina</h2>
+                        <div class="middle-line"></div>
+                    </div>
+                    <div class="top-title">
+                        <p>Prishtina e së ardhmes është qytet me shërbime efikase e cilësore të cilat<br/> &nbsp;&nbsp;&nbsp;janë në funksion të mirëqenies së përgjithshme të qytetarëve të saj.</p>
+                    </div>
+               </div>
+
+            </div>
+            
+        </div>
+    </header>
+    <!--END HEADER-->
+    
+    <!--MAIN  BOXAT-->
+    <main id="main">
+        <div class="container">
+
+            <div class="header-boxes">
+                <div class="header-box">
+                    <div class="header-box-icone">
+                        <i style='font-size:34px' class='far'>&#xf2b5;</i>
+                    </div>
+                    <div>
+                        <h3>Flexibel Learning</h3>
+                        <p>Study when you can and at <br/>your own speed</p>
+                     </div>
+                </div>
+                <div class="header-box">
+                    <div class="header-box-icone">
+                        <i style='font-size:34px' class='fas'>&#xf06b;</i>
+                    </div>
+                    <div>
+                        <h3>Flexibel Learning</h3>
+                        <p>Study when you can and at <br/>your own speed</p>
+                     </div>
+                </div>
+                <div class="header-box">
+                    <div class="header-box-icone">
+                        <i style='font-size:34px' class='fas'>&#xf4d6;</i>
+                    </div>
+                    <div>
+                        <h3>Flexibel Learning</h3>
+                        <p>Study when you can and at <br/>your own speed</p>
+                     </div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+
+    <!--END MAIN BOXAT -->
+
+    <!--start SECTION FORM ME IMG-->
+    <section>
+        <div class="container">
+            <div class="top-title">
+                <p>Introducting</p>
+                <div class="middle-line"></div>
+            </div>
+            <h2 class="title"><span class="span">Shiko</span> online mbledhjet</h2>
+            <div class="section-boxes">
+                <div class="section-box">
+                    <form action="" method="">
+                    <h3>Regjistrohu</h2>
+                    <label for="emri">Username</label><br/>
+                    <input type="text" name="username" id="emri"/>
+                    <label for="email">Email</label><br/>
+                    <input type="email" name="email" id="email" autocomplete="off" />
+                    <label for="password">Password</label><br/>
+                    <input type="password" name="password" id="password"/><br/><br/>
+                    <input type="submit" name="submit" value="Submit"/>
+                </form>
+                </div>
+                <img src="images/pristina.webp" alt="bibloteka">
+            </div>
+        </div>
+    </section>
+    <!--END SECTION FORM ME IMG-->
+
+    <!--Biblotekat start-->
+    <div class="bibloteka">
+        <div class="container">
+            <div class="center-top">
+                <div class="top-title">
+                    <p>Hapsirat</p>
+                    <div class="middle-line"></div>
+                </div>
+                <h2 class="title"><span class="span">Bibliotekat</span> e qytetit të Prishtinës</h2>
+            </div>
+            
+            <div class="bobloteka-boxes">
+                <div class="bibloteka-box">
+
+                        <a href="#">Bibloteka Kombëtare</a>
+                        <a href="#"> Hivzi Sylejmani</a>
+                        <a href="#">Bibloteka Fan S. Noli</a>
+                        <a href="#">Mini Bibloteka</a>
+                        <a href="#">Dega Lektura</a>
+                        <a href="#">Dega Përrallat</a>
+
+                </div>
+                <div class="bibloteka-box">
+                    <img src="images/b.jpg" alt="Bibloteka Kombëtare">
+                </div> 
+
+            </div>
+
+            <div class="biblotekat-boxes">
+                <div class="biblotekat-box">
+                    
+                        <img src="images/bibloteka.jpg" alt="biblotekaa"/>
+                        <div class="description">
+                            <h3>Bibloteka Kombëtare</h3>
+                            <p>Biblioteka e qytetit të Prishtinës është institucion kulturor, edukues e informues që grumbullon</p>
+                        </div>
+                   
+                </div>
+                <div class="biblotekat-box">
+                    
+                        <img src="images/boblo.jpg" alt="biblotekaa"/>
+                        <div class="description">
+                            <h3>Dega Përrallat</h3>
+                            <p>Bibloteka e qytetit ofron hapsirë studimi për nxënës dhe student si dhe mundëson huazimin dhe shfrytëzimin e librave</p>
+                        </div>
+                   
+                </div>
+                <div class="biblotekat-box">
+                   
+                        <img src="images/mini-biblioteka.jpg" alt="biblotekaa"/>
+                        <div class="description">
+                            <h3>Mini Bibloteka</h3>
+                            <p>Me moton “Sill një libër merr një tjetër”, mini bibliotekat po vazhdojnë të hapen në çdo lagje të Prishtinës</p>
+                        </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- END BIBLOTEKA SECTION-->
+    
+    <!-- Foto ne Prishtine Bukurite e saj HISTORI DHE MAGAZIN-->
+    <div class="section-photo">
+        <div class="container1">
+            <div class="center-top">
+                <div class="top-title">
+                    <p>Latest In</p>
+                </div>
+                <h2 class="title2">History <span class="spani">&</span> Culture</h2>
+
+                <div class="news-boxes">
+                    <div class="new-box">
+                        <img src="images/pr2.jpg" alt="">
+                        <div class="news-description">
+                                <p>HISTORY & MAGAZINE</p>
+                            <div class="top-title">
+                                <p>Nothing sweeter than being in your 70s  and playing çifteli at "Zahir Pajaziti" square while wearing a mask to keep yourself & others safe. If this man can do it, so can you!</p>
+                            </div>
+                            <i style='font-size:15px;' class='fas'>&#xf550;<a href="#">READ</a></i> 
+                        </div>
+                    </div>
+
+                    <div class="new-box1">
+                        <img src="images/corona.jpg" alt="">
+                        <div class="news-description1">
+                                <p>HISTORY & MAGAZINE</p>
+                                <div class="top-title">
+                                    <p>Nothing sweeter than being in your 70s  and playing çifteli at "Zahir Pajaziti" square while wearing a mask to keep yourself & others safe.</p> 
+                                </div>
+                                <i style='font-size:15px; color:#000;' class='fas'>&#xf550;<a href="#">READ</a></i> 
+                        </div>
+                    </div>
+
+                    <div class="new-box2">
+                        <img src="images/design.jpg" alt="">
+                        <div class="news-description1">
+                                <p>HISTORY & MAGAZINE</p>
+                                <div class="top-title">
+                                    <p>Nothing sweeter than being in your 70s  and playing çifteli</p> 
+                                </div>
+                                <i style='font-size:15px;' class='fas'>&#xf550;<a href="#">READ</a></i> 
+                        </div>
+                    </div>
+
+                    <div class="new-box2">
+                        <img src="images/hana.jpg" alt="">
+                        <div class="news-description1">
+                                <p>HISTORY & MAGAZINE</p>
+                                <div class="top-title">
+                                    <p>Nothing sweeter than being in your 70s  and playing çifteli</p> 
+                                </div>
+                                <i style='font-size:15px;' class='fas'>&#xf550;<a href="#">READ</a></i> 
+                        </div>
+                    </div>
+
+                    <div class="new-box2">
+                        <img src="images/vjeshta.jpg" alt="">
+                        <div class="news-description1">
+                                <p>HISTORY & MAGAZINE</p>
+                                <div class="top-title">
+                                    <p>Nothing sweeter than being in your 70s  and playing çifteli</p> 
+                                </div>
+                                <i style='font-size:15px;' class='fas'>&#xf550;<a href="#">READ</a></i> 
+                        </div>
+                    </div>
+            
+                </div>
+
+                <div class="divi">
+                    <a href="#">
+                        <div class="div"><i style="font-size:18px; margin-left: -10px; margin-right: 10px;" class="fa">&#xf021;</i>load more</div>
+                       </a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- END HISTORI DHE MAGAZIN -->
+
+     <!-- START SPORT DHE KULTUR-->
+     <div class="section-photo" style="background-color: #000;">
+        <div class="container1">
+            <div class="center-top">
+                <div class="top-title">
+                    <p>Latest In</p>
+                </div>
+                <h2 class="title2" style="color: #ffffff;">SPORT <span class="spani">&</span> Culture</h2>
+
+                <div class="news-boxes">
+                    <div class="new-box">
+                        <img src="images/sport.jpg" alt="">
+                        <div class="news-description">
+                                <p>HISTORY & MAGAZINE</p>
+                            <div class="top-title">
+                                <p>Nothing sweeter than being in your 70s  and playing çifteli at "Zahir Pajaziti" square while wearing a mask to keep yourself & others safe. If this man can do it, so can you!</p>
+                            </div>
+                            <i style='font-size:15px;' class='fas'>&#xf550;<a href="#">READ</a></i> 
+                        </div>
+                    </div>
+
+                    <div class="new-box1">
+                        <img src="images/haxhia.jpg" alt="">
+                        <div class="news-description1">
+                                <p>HISTORY & MAGAZINE</p>
+                                <div class="top-title">
+                                    <p>Haxhi Krasniqi kampion bote – mbanë tashmë brezat IBO dhe WBA Haxhi. Robin Krasniqi është kampioni i ri në peshën gjysmë të rëndë, në IBO dhe WBA.</p> 
+                                </div>
+                                <i style='font-size:15px; color:#000;' class='fas'>&#xf550;<a href="#">READ</a></i> 
+                        </div>
+                    </div>
+
+                    <div class="new-box2">
+                        <img src="images/culture.jpg" alt="">
+                        <div class="news-description1">
+                                <p>HISTORY & MAGAZINE</p>
+                                <div class="top-title">
+                                    <p>Nothing sweeter than being in your 70s  and playing çifteli</p> 
+                                </div>
+                                <i style='font-size:15px;' class='fas'>&#xf550;<a href="#">READ</a></i> 
+                        </div>
+                    </div>
+
+                    <div class="new-box2">
+                        <img src="images/nature.jpg" alt="">
+                        <div class="news-description1">
+                                <p>HISTORY & MAGAZINE</p>
+                                <div class="top-title">
+                                    <p>Nothing sweeter than being in your 70s  and playing çifteli</p> 
+                                </div>
+                                <i style='font-size:15px;' class='fas'>&#xf550;<a href="#">READ</a></i> 
+                        </div>
+                    </div>
+
+                    <div class="new-box2">
+                        <img src="images/cul.jpg" alt="">
+                        <div class="news-description1">
+                                <p>HISTORY & MAGAZINE</p>
+                                <div class="top-title">
+                                    <p>Nothing sweeter than being in your 70s  and playing çifteli</p> 
+                                </div>
+                                <i style='font-size:15px;' class='fas'>&#xf550;<a href="#">READ</a></i> 
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <div class="divi">
+                    <a href="#">
+                        <div class="div"><i style="font-size:18px; margin-left: -10px; margin-right: 10px;" class="fa">&#xf021;</i>load more</div>
+                       </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- END SPORT DHE KULTUR-->
+
+     <!-- START KAFE DHE KULTUR-->
+     <div class="section-photo">
+        <div class="container1">
+            <div class="center-top">
+                <div class="top-title">
+                    <p>Latest In</p>
+                </div>
+                <h2 class="title2">Caffe  <span class="spani">&</span> Time</h2>
+
+                <div class="news-boxes">
+                    <div class="new-box">
+                        <img src="images/kafiterit.jpg" alt="">
+                        <div class="news-description">
+                                <p>HISTORY & MAGAZINE</p>
+                            <div class="top-title">
+                                <p>Nothing sweeter than being in your 70s  and playing çifteli at "Zahir Pajaziti" square while wearing a mask to keep yourself & others safe. If this man can do it, so can you!</p>
+                            </div>
+                            <i style='font-size:15px;' class='fas'>&#xf550;<a href="#">READ</a></i> 
+                        </div>
+                    </div>
+
+                    <div class="new-box1">
+                        <img src="images/kafiterit1.jpg" alt="">
+                        <div class="news-description1">
+                                <p>HISTORY & MAGAZINE</p>
+                                <div class="top-title">
+                                    <p>Haxhi Krasniqi kampion bote – mbanë tashmë brezat IBO dhe WBA Haxhi. Robin Krasniqi është kampioni i ri në peshën gjysmë të rëndë, në IBO dhe WBA.</p> 
+                                </div>
+                                <i style='font-size:15px; color:#000;' class='fas'>&#xf550;<a href="#">READ</a></i> 
+                        </div>
+                    </div>
+
+                    <div class="new-box2">
+                        <img src="images/kafiterit2.jpg" alt="">
+                        <div class="news-description1">
+                                <p>HISTORY & MAGAZINE</p>
+                                <div class="top-title">
+                                    <p>Nothing sweeter than being in your 70s  and playing çifteli</p> 
+                                </div>
+                                <i style='font-size:15px;' class='fas'>&#xf550;<a href="#">READ</a></i> 
+                        </div>
+                    </div>
+
+                    <div class="new-box2">
+                        <img src="images/kafiterit3.jpg" alt="">
+                        <div class="news-description1">
+                                <p>HISTORY & MAGAZINE</p>
+                                <div class="top-title">
+                                    <p>Nothing sweeter than being in your 70s  and playing çifteli</p> 
+                                </div>
+                                <i style='font-size:15px;' class='fas'>&#xf550;<a href="#">READ</a></i> 
+                        </div>
+                    </div>
+
+                    <div class="new-box2">
+                        <img src="images/kafe1.jpg" alt="">
+                        <div class="news-description1">
+                                <p>HISTORY & MAGAZINE</p>
+                                <div class="top-title">
+                                    <p>Nothing sweeter than being in your 70s  and playing çifteli</p> 
+                                </div>
+                                <i style='font-size:15px;' class='fas'>&#xf550;<a href="#">READ</a></i> 
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <div class="divi">
+                    <a href="#">
+                        <div class="div"><i style="font-size:18px; margin-left: -10px; margin-right: 10px;" class="fa">&#xf021;</i>load more</div>
+                       </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- END Kafe DHE KULTUR-->
+
+      <!-- START OUR SPACE BICKILETAT-->
+      <div class="our-spaces">
+        <div class="container">
+            <div class="our-space-box">
+                <div>
+                    <h2 class="title"><span class="span2">Dear</span> cyclists of Prishtina 🚴🏻‍♂️, the moment we’ve all been waiting for is here!</h2>
+                </div>
+                <div>
+                    <div class="top-title">
+                        <p>Our city is slowly improving its active mobility infrastructure by designating more lanes to biking, like this one in Dardania neighbourhood 😍. As it seems, we’re running out of excuses to keep using cars around the city 🚗, so let's switch from driving to biking whenever possible. Not only is it healthier 💪, but one can also enjoy a pleasant tour 🥰 of our charming city powered by your own two pedals 🚲. 
+                            So, hop on your bikes and join us for a ride! We’re starting our biking adventure in Dardania. Keep your eyes peeled to see where we'll end up tomorrow 👀.</p>
+                    </div>
+                </div>
+                <div>
+                   <a href="#"> <i style='font-size:100px' class='fas'>&#xf35a;</i></a>
+                </div>
+            </div>  
+            
+            <div class="our-spaces-cyclist">
+                <div class="our-space">
+                    <div>
+                        <img src="images/bi1.jpg" alt="Afer Postest">
+                        <i style="font-size:56px" class="fa">&#xf054;</i>
+                    </div>
+                    <div>
+                        <img src="images/bi.jpg" alt="Bicikell">
+                        <i style="font-size:56px" class="fa">&#xf054;</i>
+                    </div>
+                </div>
+                <div class="our-space2">
+                    <img src="images/bi2.jpg" alt="Bicikell">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Bicikletat-->
+
+      <!-- Why Frispes -->
+      <div class="why-frispes-section">
+        <div class="container">
+            <div class="why-frispes-box box1">
+                <div class="icon-box">
+                    <i class="fa fa-line-chart"></i>
+                    <div>
+                      <span class="nr"> 500+</span> <br />
+                      <span class="description"> Meeting rooms</span>
+                    </div>
+                  </div>
+                  <div class="icon-box">
+                    <i class="fa fa-line-chart"></i>
+                    <div>
+                      <span class="nr"> 500+</span> <br />
+                      <span class="description"> Meeting rooms</span>
+                    </div>
+                  </div>
+                  <div class="icon-box">
+                    <i class="fa fa-line-chart"></i>
+                    <div>
+                      <span class="nr"> 500+</span> <br />
+                      <span class="description"> Meeting rooms</span>
+                    </div>
+                  </div>
+                  <div class="icon-box">
+                    <i class="fa fa-line-chart"></i>
+                    <div>
+                      <span class="nr"> 500+</span> <br />
+                      <span class="description"> Meeting rooms</span>
+                    </div>
+                  </div>
+                  <div class="icon-box">
+                    <i class="fa fa-line-chart"></i>
+                    <div>
+                      <span class="nr"> 500+</span> <br />
+                      <span class="description"> Meeting rooms</span>
+                    </div>
+                  </div>
+                  <div class="icon-box">
+                    <i class="fa fa-line-chart"></i>
+                    <div>
+                      <span class="nr"> 500+</span> <br />
+                      <span class="description"> Meeting rooms</span>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="why-frispes-box box-2">
+                <div class="top-title">
+                    <p>Why Frispes</p>
+                    <div class="middle-line"></div>
+                </div>
+                <h2 class="title">We revolutionize your workspace</h2>
+                <p>
+                    With a decade of insights and expertise, we're decided to reimagine
+                    co-working space, designed to help a new startup grow up and realize
+                    their ideas so they can give a positive impacts on many people
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Why Frispes End -->
+
+    <!--START SERVICE SHERBIMET-->
+    <div class="services">
+        <div class="container2">
+            <div class="top-title">
+                <p>Sherbimet</p>
+                <div class="middle-line"></div>
+            </div>
+            <h2 class="title"><span class="span1">Manuali</span> per sherbimet</h2>
+
+            <div class="services-boxes">
+                <div class="services-box">
+                    <div>
+                        <i style='font-size:110px' class='far'>&#xf2bb;</i>
+                    </div>
+                    <div>
+                        <h2 class="h2">PLANI I MOBILITETIT TE QENDRUESHUM URBAN TE</h2>
+                    </div>
+                </div>
+                <div class="services-box">
+                    <div>
+                        <i style='font-size:110px' class='far'>&#xf0c5;</i>
+                    </div>
+                    <div>
+                        <h2 class="h2">ÇASJE NE DOKUMENTA ZYRTAR</h2>
+                    </div>
+                </div><div class="services-box">
+                    <div>
+                        <i style='font-size:110px' class='far'>&#xf044;</i>
+                    </div>
+                    <div>
+                        <h2 class="h2">SHTYP FATUREN E MBETURINAVE</h2>
+                    </div>
+                </div>
+                <div class="services-box">
+                    <div>
+                        <i style='font-size:110px' class='fas'>&#xf66f;</i>
+                    </div>
+                    <div>
+                        <h2 class="h2">PORTALI SHTETEROR</h2>
+                    </div>
+                </div>
+                <div class="services-box">
+                    <div>
+                        <i style='font-size:110px' class='far'>&#xf279;</i>
+                    </div>
+                    <div>
+                        <h2 class="h2">HARTA E QYTETIT</h2>
+                    </div>
+                </div>
+                <div class="services-box">
+                    <div>
+                        <i style='font-size:110px'  class='fas'>&#xf001;</i>
+                    </div>
+                    <div>
+                        <h2 class="h2">HIMNI I KOSOVES</h2>
+                    </div>
+                </div>
+                <div class="services-box">
+                    <div>
+                        <i style='font-size:110px' class='far'>&#xf2bb;</i>
+                    </div>
+                    <div>
+                        <h2 class="h2">REGJISTRI I PROCEDURAVE ADMINISTRATIVE
+                            NË KOMUNËN </h2>
+                    </div>
+                </div>
+                <div class="services-box">
+                    <div>
+                        <i style='font-size:110px' class='fas'>&#xf279;</i>
+                    </div>
+                    <div>
+                        <h2 class="h2">Përprishinë</h2>
+                    </div>
+                </div>
+                <div class="services-box">
+                    <div>
+                        <i style='font-size:110px' class='far'>&#xf2b6;</i>
+                    </div>
+                    <div>
+                        <h2 class="h2">ÇASJE ne e-mail zyrtar </h2>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container3">
+            <div class="center-top1">
+                <h2 class="title3">THE BEST OF NATIONAL GEOGRAPHIC DELIVERED TO YOUR INBOX</h2>
+                <div class="top-title">
+                    <p>Sign up for more inspiring photos, stories, and special offers from National Prishtina.</p>
+                </div>
+            </div>
+            <div class="inputiEmail">
+                <input type="email" class="emaili" name="email" placeholder="Enter your email"/>
+                <input alt="Sign Up" class="submiti" style="background-image: url(images/submit-arrow.png);" type="submit" value="">
+            </div>
+            <div class="center-top1">
+                <p class="footer-p">By signing up for this email, you are agreeing to receive news, offers, and information from Prishtina Geographic Partners, Artmotion and our partners. Click here to visit oura <a href="https://www.cookiebot.com/en/privacy-policy-generator-gdpr/?gclid=CjwKCAjwz6_8BRBkEiwA3p02VUQ1G5j-3ALPzhpQBim3DD1-pxlYISHtGDrhhGHyEnCtND1hh4Yg2xoCi9sQAvD_BwE" target="_blank">Privacy Policy.</a>Easy unsubscribe links are provided in every email.</p>
+            </div>
+
+            <div class="footer-boxes">
+                <div class="footer-box">
+                    <div>
+                        <h3>ABOUT US</h3>
+                        <p>Rr.UÇK nr. 2 <br/>
+                            10000 Prishtinë, Kosovë
+                        </p>
+                    </div>
+                    <div>
+                        <h3> CONTACTS</h3>
+                        <p>CENTRALI: 038/230 900</p>
+                        <p>EMAIL: komunaprishtine@rks-gov.net</p>
+                    </div>    
+                </div>
+                <div class="footer-box">
+                    <h3>OUR SITES</h3>
+                    <p>Prishtinaonline</p>
+                    <p>Platforma Digjitale për Participim <br/>Publik</p>
+                    <p>Subvencionet në DKRS</p>
+                    <p>Komisioni Rregullativ i Prokurimit <br/>Publik</p>
+                    <p>Organi Shqyrtues i Prokurimit</p>
+                </div>
+                <div class="footer-box">
+                    <h3>JOIN US</h3>
+                    <p>Subscribe</p>
+                    <p>Customer Serice</p>
+                    <p>Jobs</p>
+                    <p>Manage Your Subscription</p>
+                    <p>Renew Subscription</p>
+                    <p>Pitch a Story</p>
+                    <p>Newstlerr Signup</p>
+                </div>
+                <div class="footer-box">
+                    <h3>FOLLOW US</h3>
+                   <span class="social-menu">
+                        </svg> <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="266.9px" height="266.9px" viewBox="0 0 266.9 266.9" style="enable-background:new 0 0 266.9 266.9;" xml:space="preserve">
+                            <title>facebook</title>
+                            <path style="fill:white" d="M252.2,0H14.7C6.6,0,0,6.6,0,14.7v237.4c0,8.1,6.6,14.7,14.7,14.7h127.8V163.6h-34.8v-40.3h34.8V93.6  c0-34.5,21.1-53.2,51.8-53.2c10.4,0,20.8,0.5,31.1,1.6v36h-21.3c-16.8,0-20,8-20,19.6v25.7H224l-5.2,40.3h-34.7v103.3h68  c8.1,0,14.7-6.6,14.7-14.7V14.7C266.9,6.6,260.3,0,252.2,0z"/>
+                        </svg>
+                    </span>
+                    <span class="social-menu">
+                        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 273.38 222.18">
+                            <title>twitter</title>
+                            <path d="M273.39,26.3a112.12,112.12,0,0,1-32.21,8.83,56.25,56.25,0,0,0,24.66-31,112.3,112.3,0,0,1-35.62,13.61,56.14,56.14,0,0,0-95.56,51.13A159.24,159.24,0,0,1,19,10.27,56.15,56.15,0,0,0,36.39,85.15a55.86,55.86,0,0,1-25.41-7v0.71a56.12,56.12,0,0,0,45,55,56.23,56.23,0,0,1-25.33,1,56.15,56.15,0,0,0,52.4,39,112.54,112.54,0,0,1-69.66,24A114.17,114.17,0,0,1,0,197.08a158.76,158.76,0,0,0,86,25.2c103.17,0,159.58-85.47,159.58-159.59q0-3.65-.16-7.26A114,114,0,0,0,273.39,26.3Z" transform="translate(-0.01 -0.1)" style="fill: white"/>
+                         </svg>
+                    </span>
+                    <span class="social-menu">
+                        <svg fill="white" id="Layer_1" class="svg" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 229.84 227.9"><title>Artboard 1</title><path d="M115,20.52c30.45,0,34.06.13,46,.67,11.13.49,17.14,2.36,21.15,3.92a35.25,35.25,0,0,1,13.09,8.5,35.72,35.72,0,0,1,8.55,13.09c1.56,4,3.43,10.06,3.92,21.15.53,12,.67,15.63.67,46s-.13,34.06-.67,46c-.49,11.13-2.36,17.14-3.92,21.15a35.25,35.25,0,0,1-8.5,13.09,35.72,35.72,0,0,1-13.09,8.55c-4,1.56-10.06,3.43-21.15,3.92-12,.53-15.63.67-46,.67s-34.06-.13-46-.67c-11.13-.49-17.14-2.36-21.15-3.92a35.25,35.25,0,0,1-13.09-8.5,35.72,35.72,0,0,1-8.55-13.09c-1.56-4-3.43-10.06-3.92-21.15-.53-12-.67-15.63-.67-46s.13-34.06.67-46c.49-11.13,2.36-17.14,3.92-21.15a35.25,35.25,0,0,1,8.5-13.09,35.72,35.72,0,0,1,13.09-8.55c4-1.56,10.06-3.43,21.15-3.92,12-.53,15.58-.67,46-.67M115,0C84,0,80.17.13,68,.67S47.58,3.16,40.37,6A55.63,55.63,0,0,0,20.16,19.14,55.84,55.84,0,0,0,7,39.31C4.18,46.57,2.22,54.85,1.68,67S1,83,1,114s.13,34.81.67,47S4.18,181.38,7,188.59A55.63,55.63,0,0,0,20.16,208.8a55.71,55.71,0,0,0,20.17,13.13c7.26,2.8,15.54,4.76,27.65,5.3s16,.67,47,.67,34.81-.13,47-.67,20.43-2.49,27.65-5.3a58.23,58.23,0,0,0,33.3-33.3c2.8-7.26,4.76-15.54,5.3-27.65s.67-16,.67-47-.13-34.81-.67-47-2.49-20.43-5.3-27.65a53.38,53.38,0,0,0-13-20.26A55.71,55.71,0,0,0,189.65,6c-7.26-2.8-15.54-4.76-27.65-5.3S145.93,0,115,0Z"/><path d="M115,55.43A58.54,58.54,0,1,0,173.53,114,58.56,58.56,0,0,0,115,55.43Zm0,96.52a38,38,0,1,1,38-38A38,38,0,0,1,115,151.95Z"/><circle cx="175.85" cy="53.11" r="13.67"/>
+                        </svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footeri-logo">
+            <div>   
+                <svg id="Layer_1" style="width:100%; height:38px; color:#ffffff;" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 139.54 41">
+                    <g>
+                    <path d="M241.74,421.43v-41h28.61v41H241.74Zm24.47-4.13V384.56H245.86V417.3h20.35Z" transform="translate(-241.74 -380.43)" style="fill: #ffcd05"/>
+                    <path d="M289.36,398.82h-1.77c-2.32-3.28-4.63-6.54-6.93-10.23h0v10.23h-2V384.55h1.77c2.32,3.26,4.63,6.5,6.91,10.17h0V384.55h2v14.27Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                    <path d="M294,393.18c0.57-1.87,1.14-3.61,1.65-5.81h0c0.57,2.2,1.08,3.94,1.61,5.81H294Zm0.94-8.62L290,398.82h2.12l1.24-3.89h4.3l1.12,3.89h2.73L297,384.55h-2Z" transform="translate(-241.74 -380.43)" style="fill:#ffffff"/>
+                    <path d="M303.83,398.82V386.47h-3.75v-1.91H310v1.91h-3.75v12.35h-2.45Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                    <path d="M310.83,398.82V384.55h2.43v14.27h-2.43Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                    <path d="M320.79,397c-2.55,0-3.45-2.81-3.45-5.54s1-5.14,3.45-5.14,3.45,2.51,3.45,5.14S323.34,397,320.79,397Zm0,2c3.73,0,6.05-3.32,6.05-7.58,0-4-2.57-7.18-6.05-7.18s-6.05,3.18-6.05,7.18C314.74,395.74,317.06,399.07,320.79,399.07Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                    <path d="M339,398.82h-1.77c-2.32-3.28-4.63-6.54-6.93-10.23h0v10.23h-2V384.55h1.77c2.32,3.26,4.63,6.5,6.91,10.17h0V384.55h2v14.27Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                    <path d="M343.67,393.18c0.57-1.87,1.14-3.61,1.65-5.81h0c0.57,2.2,1.08,3.94,1.61,5.81h-3.3Zm0.94-8.62-4.93,14.27h2.12l1.24-3.89h4.3l1.12,3.89h2.73l-4.54-14.27h-2Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                    <path d="M351.9,384.55h2.43v12.35h4.83v1.92H351.9V384.55Z" transform="translate(-241.74 -380.43)" style="fill:#ffffff"/>
+                    <g>
+                    <path d="M287.85,410.76v5.89a11.23,11.23,0,0,1-4.06.88c-4.2,0-6.85-3.26-6.85-7.46,0-3.89,2.65-7.3,6.93-7.3a6.1,6.1,0,0,1,3.47,1.1l-0.79,1.69a5.3,5.3,0,0,0-2.61-.75c-2.61,0-4.38,2.06-4.38,5.3s2,5.38,4.14,5.38a3.6,3.6,0,0,0,1.71-.35v-4.38h2.45Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                    <path d="M296.6,404.93h-4.08v3.91h4v1.92h-4v4.61h4.81v1.92h-7.26V403h6.52v1.92Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                    <path d="M304.14,415.49c-2.55,0-3.44-2.81-3.44-5.54s1-5.14,3.44-5.14,3.45,2.51,3.45,5.14S306.69,415.49,304.14,415.49Zm0,2c3.73,0,6.05-3.32,6.05-7.58,0-4-2.57-7.18-6.05-7.18s-6.05,3.18-6.05,7.18C298.09,414.21,300.41,417.53,304.14,417.53Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                    <path d="M321.94,410.76v5.89a11.24,11.24,0,0,1-4.06.88c-4.2,0-6.85-3.26-6.85-7.46,0-3.89,2.65-7.3,6.93-7.3a6.09,6.09,0,0,1,3.47,1.1l-0.79,1.69a5.3,5.3,0,0,0-2.61-.75c-2.61,0-4.38,2.06-4.38,5.3s2,5.38,4.14,5.38a3.6,3.6,0,0,0,1.71-.35v-4.38h2.45Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                    <path d="M326.63,404.93h1.08a2.07,2.07,0,0,1,2.26,2.3,2.52,2.52,0,0,1-2.32,2.83l-1,.06v-5.2Zm6.2,12.35L330,411.37a4.8,4.8,0,0,0,2.47-4.24c0-2.77-1.69-4.12-4.42-4.12h-3.81v14.27h2.45V411.9h1.1l2.3,5.38h2.79Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                    <path d="M336.86,411.64c0.57-1.87,1.14-3.61,1.65-5.81h0c0.57,2.2,1.08,3.93,1.61,5.81h-3.3ZM337.8,403l-4.93,14.27H335l1.24-3.89h4.3l1.12,3.89h2.73L339.84,403h-2Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                    <path d="M349,403h-3.81v14.27h2.45V411.9h1.1a4.66,4.66,0,0,0,4.69-4.77C353.39,404.36,351.7,403,349,403Zm-0.35,7.05-1,.06v-5.19h1.1a2.07,2.07,0,0,1,2.24,2.3A2.52,2.52,0,0,1,348.62,410.07Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                    <path d="M364.73,417.28h-2.45v-6.87h-5.08v6.87h-2.43V403h2.43v5.48h5.08v-5.44h2.45v14.23Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                    <path d="M367.07,417.28V403h2.43v14.27h-2.43Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                    <path d="M380.51,405.6a5.15,5.15,0,0,0-2.51-.79c-2.49,0-4.3,2.06-4.3,5.3s2,5.38,4.36,5.38a4.63,4.63,0,0,0,2.45-.71l0.67,1.77a6.21,6.21,0,0,1-3.22,1c-4.2,0-6.85-3.26-6.85-7.46,0-3.89,2.63-7.3,6.89-7.3a6,6,0,0,1,3.28,1.1Z" transform="translate(-241.74 -380.43)" style="fill: #ffffff"/>
+                    </g>
+                    </g>
+                </svg>
+            </div>
+            <div>
+                <p class="footer-bottom"> Copyright © 1996-2015 National Geographic Society|Copyright © 2015-2020 National Geographic Partners, LLC. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
